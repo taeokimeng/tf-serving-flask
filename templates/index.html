@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flask app</title>
+    </head>
+    <body>
+        <form action="http://localhost:5000/" method="post">
+            <h1>TensorFlow Serving with REST API and Flask</h1>
+            <!--<p><input type="text" name="sentence"></p>-->
+            <!--<p><input type="submit" value="request"></p>-->
+            <div>
+                <input type="text" name="sentence">
+            </div>
+            <div class="button">
+                <button type="submit">Request</button>
+            </div>
+            <div>
+                <p>Input: {{input}}</p>
+                <p>Result: {{output}}</p>
+            </div>
+        </form>
+    </body>
+</html>
